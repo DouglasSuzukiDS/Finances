@@ -11,24 +11,6 @@
       "typeItem": "Negative",
       "valueItem": "100",
       "id": 2
-    },
-    {
-      "nameItem": "Cell",
-      "typeItem": "",
-      "valueItem": "30",
-      "id": 4
-    },
-    {
-      "nameItem": "Job",
-      "typeItem": "",
-      "valueItem": "50.50",
-      "id": 5
-    },
-    {
-      "nameItem": "a",
-      "typeItem": "",
-      "valueItem": "5",
-      "id": 7
     }
   ]
 }
