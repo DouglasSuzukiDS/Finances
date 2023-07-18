@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import './components/Form/Form.scss';
+@import './components/Item/Item';
+@import './components/Table/table';
+@import './components/ProgressBar/ProgressBar';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #202225;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all ease .75;
+  width: 80px;
+}
+
+.btn:hover {
+  opacity: .75;
+}
+
+.btn-primary-outline {
+  color: #0D6EFD;
+  background-color: transparent;
+  border: 1px solid #0F6EFD !important;
+  transition: 1s !important;
+  
+  &:hover {
+     color: #C1C7E0;
+     background-color: #0B5ED7;
+     border-color:#0A58CA;
+  }
+}
+
+.btn-danger-outline {
+  color: #DC3545;
+  background-color: transparent;
+  border: 1px solid #DC3545 !important;
+  transition: 1s !important;
+  
+  &:hover {
+     color: #C1C7E0;
+     background-color:#BB2D3B;
+     border-color:#B02A37;
+  }
+}
+
+.btn-warning-outline {
+  color: #FFC107;
+  background-color: transparent;
+  border: 1px solid #FFC107 !important;
+  transition: 1s !important;
+  
+  &:hover {
+     color: var(--bs-dark);
+     background-color:#FFCA2C;
+     border-color:#FFC720;
+  }
+}
+
+.btn-info-outline {
+  color: #0DCAF0;
+  background-color: transparent;
+  border: 1px solid #0DCAF0 !important;
+  transition: 1s !important;
+  
+  &:hover {
+     color: var(--bs-dark);
+     background-color:#31D2F2;
+     border-color:#25CFF2
+  }
+}

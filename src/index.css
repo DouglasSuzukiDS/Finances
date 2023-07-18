@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input {
+  text-align: center;
+  background-color: var(slate-600);
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #94A3B8;
+  transition: all ease 0.75s;
+}
+table tbody tr:nth-child(odd):hover {
+  background-color: #E2E8F0;
+}
+table tbody tr:nth-child(even) {
+  background-color: #64748B;
+  transition: all ease 0.75s;
+}
+table tbody tr:nth-child(even):hover {
+  background-color: #CBD5E1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #202225;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all ease 0.75;
+  width: 80px;
+}
+
+.btn:hover {
+  opacity: 0.75;
+}
+
+.btn-primary-outline {
+  color: #0D6EFD;
+  background-color: transparent;
+  border: 1px solid #0F6EFD !important;
+  transition: 1s !important;
+}
+.btn-primary-outline:hover {
+  color: #C1C7E0;
+  background-color: #0B5ED7;
+  border-color: #0A58CA;
+}
+
+.btn-danger-outline {
+  color: #DC3545;
+  background-color: transparent;
+  border: 1px solid #DC3545 !important;
+  transition: 1s !important;
+}
+.btn-danger-outline:hover {
+  color: #C1C7E0;
+  background-color: #BB2D3B;
+  border-color: #B02A37;
+}
+
+.btn-warning-outline {
+  color: #FFC107;
+  background-color: transparent;
+  border: 1px solid #FFC107 !important;
+  transition: 1s !important;
+}
+.btn-warning-outline:hover {
+  color: var(--bs-dark);
+  background-color: #FFCA2C;
+  border-color: #FFC720;
+}
+
+.btn-info-outline {
+  color: #0DCAF0;
+  background-color: transparent;
+  border: 1px solid #0DCAF0 !important;
+  transition: 1s !important;
+}
+.btn-info-outline:hover {
+  color: var(--bs-dark);
+  background-color: #31D2F2;
+  border-color: #25CFF2;
+}/*# sourceMappingURL=index.css.map */

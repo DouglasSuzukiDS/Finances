@@ -1,0 +1,23 @@
+table tbody{
+   tr {
+      &:nth-child(odd) {
+         background-color: #94A3B8;
+         transition: all ease .75s;
+
+         &:hover {
+            background-color: #E2E8F0;
+         }
+      }
+   }
+
+   tr {
+      &:nth-child(even) {
+         background-color: #64748B;
+         transition: all ease .75s;
+
+         &:hover {
+            background-color: #CBD5E1;
+         }
+      }
+   }
+}
