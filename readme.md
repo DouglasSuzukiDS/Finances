@@ -1,7 +1,7 @@
 
 # Projeto de Finanças
 
-O projeto Finanças foi um projeto para um processo seletivo. Onde foi sujerido a realização do projeto com algum Framework/Biblioteca.
+O projeto Finanças foi desenvolvido para um processo seletivo. Onde foi sugerido a realização do projeto com algum Framework/Biblioteca.
 
 
 
